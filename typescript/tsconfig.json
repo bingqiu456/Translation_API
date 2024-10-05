@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+      "allowJs": true,
+      "checkJs": false, // 可选，控制是否检查 JS 文件中的类型
+      "outDir": "./dist", // 输出目录
+      "target": "es5", // 根据需要选择目标 ECMAScript 版本
+      "module": "commonjs" // 根据需要选择模块系统
+    },
+    "include": [
+      "./**/*.ts",
+      "./**/*.js" // 包含 JS 文件
+    ]
+  }
+  
